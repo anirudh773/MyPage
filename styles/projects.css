@@ -1,0 +1,41 @@
+
+/* Projects Section */
+#projects h1 {
+    margin-bottom: 30px;
+}
+
+.project {
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background: #fffdfb;
+}
+
+.project:hover {
+    transition: all 0.5s;
+    box-shadow: 8px 20px 60px rgba(24, 139, 119, 0.3);
+}
+
+.project-image {
+    margin: auto;
+    width: 20%;
+}
+
+.project-des {
+    width: 70%;
+    margin: auto;
+}
+
+.project-des h2 {
+    color: #1c3548;
+    font-size: 2.2rem;
+}
+
+.project-des p {
+    padding-bottom: 10px;
+}
